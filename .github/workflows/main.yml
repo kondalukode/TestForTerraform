@@ -26,4 +26,6 @@ jobs:
 
      - name: Checkout code into the Go module directory
        uses: actions/checkout@v1
+     - name: create files
+       run: touch file1
        
